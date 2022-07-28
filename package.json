@@ -1,0 +1,32 @@
+{
+  "name": "next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint & prettier . --write"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.8.0",
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.7",
+    "@emotion/core": "^10.3.1",
+    "@emotion/react": "^11",
+    "@emotion/styled": "^11",
+    "emotion-theming": "^10.3.0",
+    "framer-motion": "^6",
+    "next": "12.1.6",
+    "prop-types": "^15.8.1",
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "eslint": "8.15.0",
+    "eslint-config-next": "12.1.6"
+  }
+}
